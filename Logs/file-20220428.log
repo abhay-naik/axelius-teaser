@@ -1,0 +1,941 @@
+2022-04-28 01:12:11.318 +05:30 [Debug] Starting with program startup
+2022-04-28 01:12:12.051 +05:30 [Information] Connected to Cache @ "localhost:9003"
+2022-04-28 01:12:12.819 +05:30 [Information] Connected to SqlDb @ "Server=localhost;Port=9001;Database=axelius;Username=administrator;Password=dev@2018;"
+2022-04-28 01:12:14.286 +05:30 [Information] Connected to DocumentDb @ "http://localhost:9002"
+2022-04-28 01:12:14.824 +05:30 [Debug] Registered DotNet Core-Services.
+2022-04-28 01:12:14.829 +05:30 [Debug] Registered Utilities.
+2022-04-28 01:12:14.987 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.IQuery`2".
+2022-04-28 01:12:14.994 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.ITransformQueryResult`2".
+2022-04-28 01:12:15.011 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`2".
+2022-04-28 01:12:15.016 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`1".
+2022-04-28 01:12:15.022 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 01:12:15.034 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.ITransformRequest`1".
+2022-04-28 01:12:15.040 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Events.IHandleEvent`1".
+2022-04-28 01:12:15.048 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.Validations.IValidation`1".
+2022-04-28 01:12:15.049 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 01:12:15.050 +05:30 [Debug] Registered Mediators.
+2022-04-28 01:12:15.168 +05:30 [Debug] App Running
+2022-04-28 01:12:15.175 +05:30 [Debug] Hosting starting
+2022-04-28 01:13:10.423 +05:30 [Debug] Starting with program startup
+2022-04-28 01:13:11.092 +05:30 [Information] Connected to Cache @ "localhost:9003"
+2022-04-28 01:13:11.403 +05:30 [Information] Connected to SqlDb @ "Server=localhost;Port=9001;Database=axelius;Username=administrator;Password=dev@2018;"
+2022-04-28 01:13:12.238 +05:30 [Information] Connected to DocumentDb @ "http://localhost:9002"
+2022-04-28 01:13:12.409 +05:30 [Debug] Registered DotNet Core-Services.
+2022-04-28 01:13:12.412 +05:30 [Debug] Registered Utilities.
+2022-04-28 01:13:12.427 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.IQuery`2".
+2022-04-28 01:13:12.427 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.ITransformQueryResult`2".
+2022-04-28 01:13:12.431 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`2".
+2022-04-28 01:13:12.432 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`1".
+2022-04-28 01:13:12.433 +05:30 [Debug] --- NewApi.Commands.NewCommandHandler
+2022-04-28 01:13:12.433 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 01:13:12.434 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.ITransformRequest`1".
+2022-04-28 01:13:12.434 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Events.IHandleEvent`1".
+2022-04-28 01:13:12.435 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.Validations.IValidation`1".
+2022-04-28 01:13:12.435 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 01:13:12.519 +05:30 [Debug]   - Mapped NewApi.Commands.NewCommand to ^command/new$
+2022-04-28 01:13:12.523 +05:30 [Debug] Registered Mediators.
+2022-04-28 01:13:12.591 +05:30 [Debug] App Running
+2022-04-28 01:13:12.595 +05:30 [Debug] Hosting starting
+2022-04-28 01:13:12.756 +05:30 [Debug] Connected to EventStore @ "nats://localhost:4222" : "62061752-c77e-4f1b-99e7-990069e4bf36".
+2022-04-28 01:13:12.929 +05:30 [Debug] Using development certificate: "CN=localhost" (Thumbprint: "3C19203D38EC9FC78A283179257AE9B8B2896303")
+2022-04-28 01:13:12.962 +05:30 [Information] Now listening on: "https://localhost:7051"
+2022-04-28 01:13:12.965 +05:30 [Information] Now listening on: "http://localhost:5102"
+2022-04-28 01:13:12.967 +05:30 [Debug] Loaded hosting startup assembly "NewApi"
+2022-04-28 01:13:12.968 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-04-28 01:13:12.969 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-04-28 01:13:12.970 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2022-04-28 01:13:12.970 +05:30 [Information] Hosting environment: "Development"
+2022-04-28 01:13:12.971 +05:30 [Information] Content root path: "E:\test\NewApi\"
+2022-04-28 01:13:12.973 +05:30 [Debug] Hosting started
+2022-04-28 01:13:13.271 +05:30 [Debug] Connection id ""0HMH8GOLAFFR5"" received FIN.
+2022-04-28 01:13:13.282 +05:30 [Debug] Connection id ""0HMH8GOLAFFR5"" accepted.
+2022-04-28 01:13:13.287 +05:30 [Debug] Connection id ""0HMH8GOLAFFR5"" started.
+2022-04-28 01:13:13.316 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 01:13:13.367 +05:30 [Debug] Connection id ""0HMH8GOLAFFR5"" stopped.
+2022-04-28 01:13:13.377 +05:30 [Debug] Connection id ""0HMH8GOLAFFR5"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 01:13:13.808 +05:30 [Debug] Connection id ""0HMH8GOLAFFR6"" accepted.
+2022-04-28 01:13:13.892 +05:30 [Debug] Connection id ""0HMH8GOLAFFR6"" started.
+2022-04-28 01:13:13.916 +05:30 [Debug] Connection id ""0HMH8GOLAFFR7"" accepted.
+2022-04-28 01:13:13.982 +05:30 [Debug] Connection id ""0HMH8GOLAFFR7"" started.
+2022-04-28 01:13:14.022 +05:30 [Debug] Connection id ""0HMH8GOLAFFR7"" received FIN.
+2022-04-28 01:13:14.047 +05:30 [Debug] Connection "0HMH8GOLAFFR7" established using the following protocol: Tls13
+2022-04-28 01:13:14.047 +05:30 [Debug] Connection "0HMH8GOLAFFR6" established using the following protocol: Tls13
+2022-04-28 01:13:14.084 +05:30 [Debug] Connection id ""0HMH8GOLAFFR7"" is closed. The last processed stream ID was 0.
+2022-04-28 01:13:14.087 +05:30 [Debug] Connection id ""0HMH8GOLAFFR7"" sending FIN because: ""The client closed the connection.""
+2022-04-28 01:13:14.091 +05:30 [Debug] Connection id ""0HMH8GOLAFFR7"" stopped.
+2022-04-28 01:13:14.144 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger - -
+2022-04-28 01:13:14.194 +05:30 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-04-28 01:13:14.232 +05:30 [Information] HTTP "GET" "/swagger" responded 301 in 33.0640 ms
+2022-04-28 01:13:14.248 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger - - - 301 0 - 108.8429ms
+2022-04-28 01:13:14.255 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/index.html - -
+2022-04-28 01:13:14.473 +05:30 [Debug] Response markup is scheduled to include browser refresh script injection.
+2022-04-28 01:13:14.973 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/swagger-ui.css - -
+2022-04-28 01:13:14.996 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/swagger-ui-bundle.js - -
+2022-04-28 01:13:14.996 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/swagger-ui-standalone-preset.js - -
+2022-04-28 01:13:15.004 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 01:13:15.014 +05:30 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 754.8501 ms
+2022-04-28 01:13:15.427 +05:30 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2022-04-28 01:13:15.427 +05:30 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2022-04-28 01:13:15.448 +05:30 [Debug] Response markup was updated to include browser refresh script injection.
+2022-04-28 01:13:15.456 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - - - 200 11970 application/javascript;+charset=utf-8 460.0944ms
+2022-04-28 01:13:15.776 +05:30 [Information] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 200 in 758.1857 ms
+2022-04-28 01:13:15.870 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/index.html - - - 200 - text/html;charset=utf-8 1614.5397ms
+2022-04-28 01:13:16.062 +05:30 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2022-04-28 01:13:16.064 +05:30 [Information] HTTP "GET" "/swagger/swagger-ui.css" responded 200 in 1045.5053 ms
+2022-04-28 01:13:16.083 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 1086.8229ms
+2022-04-28 01:13:16.084 +05:30 [Information] HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 200 in 624.3022 ms
+2022-04-28 01:13:16.087 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/swagger-ui.css - - - 200 143943 text/css 1114.4359ms
+2022-04-28 01:13:16.091 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/swagger-ui-bundle.js - - - 200 1095087 application/javascript 1096.0774ms
+2022-04-28 01:13:16.540 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - -
+2022-04-28 01:13:16.625 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/favicon-32x32.png - -
+2022-04-28 01:13:16.628 +05:30 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2022-04-28 01:13:16.632 +05:30 [Information] HTTP "GET" "/swagger/favicon-32x32.png" responded 200 in 4.5598 ms
+2022-04-28 01:13:16.636 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/favicon-32x32.png - - - 200 628 image/png 10.5300ms
+2022-04-28 01:13:16.649 +05:30 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 107.0663 ms
+2022-04-28 01:13:16.651 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.2989ms
+2022-04-28 01:13:29.782 +05:30 [Information] Request starting HTTP/2 POST https://localhost:7051/command/new application/json 197
+2022-04-28 01:13:29.787 +05:30 [Debug] "POST" requests are not supported
+2022-04-28 01:13:29.824 +05:30 [Debug] Connection id ""0HMH8GOLAFFR6"", Request id ""0HMH8GOLAFFR6:00000011"": started reading request body.
+2022-04-28 01:13:29.829 +05:30 [Debug] Connection id ""0HMH8GOLAFFR6"", Request id ""0HMH8GOLAFFR6:00000011"": done reading request body.
+2022-04-28 01:13:29.993 +05:30 [Debug] Validating for request:string
+2022-04-28 01:13:30.039 +05:30 [Debug] Generating keys for request:string
+2022-04-28 01:13:30.044 +05:30 [Debug] Validation was successful, request: string.
+2022-04-28 01:13:30.047 +05:30 [Debug] Attempting to execute command, request: string.
+2022-04-28 01:13:30.059 +05:30 [Debug] Axelius.Storages.SqlDb.SqlRepository registered successfully.
+2022-04-28 01:13:30.063 +05:30 [Debug] Axelius.Storages.DocumentDb.DocumentSessionFactory registered successfully.
+2022-04-28 01:13:30.065 +05:30 [Debug] Running command transformations for request:string
+2022-04-28 01:13:30.071 +05:30 [Debug] Executing service for request:string
+2022-04-28 01:13:30.074 +05:30 [Information] The command was handled
+2022-04-28 01:13:30.454 +05:30 [Debug] Running post command for request:string
+2022-04-28 01:13:30.458 +05:30 [Debug] Command execution status: Executed, request: string.
+2022-04-28 01:13:30.460 +05:30 [Debug] Execution status: Executed, request: string.
+2022-04-28 01:13:30.555 +05:30 [Information] HTTP "POST" "/command/new" responded 200 in 768.7721 ms
+2022-04-28 01:13:30.562 +05:30 [Information] Request finished HTTP/2 POST https://localhost:7051/command/new application/json 197 - 200 - application/json 779.3080ms
+2022-04-28 10:31:34.431 +05:30 [Debug] Starting with program startup
+2022-04-28 10:31:35.676 +05:30 [Information] Connected to Cache @ "localhost:9003"
+2022-04-28 10:31:36.384 +05:30 [Information] Connected to SqlDb @ "Server=localhost;Port=9001;Database=axelius;Username=administrator;Password=dev@2018;"
+2022-04-28 10:31:37.493 +05:30 [Information] Connected to DocumentDb @ "http://localhost:9002"
+2022-04-28 10:31:37.827 +05:30 [Debug] Registered DotNet Core-Services.
+2022-04-28 10:31:37.828 +05:30 [Debug] Registered Utilities.
+2022-04-28 10:31:37.906 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.IQuery`2".
+2022-04-28 10:31:37.907 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.ITransformQueryResult`2".
+2022-04-28 10:31:37.907 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`2".
+2022-04-28 10:31:37.908 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`1".
+2022-04-28 10:31:37.908 +05:30 [Debug] --- NewFeebackApi.Commands.StoreFeedbackHandler
+2022-04-28 10:31:37.909 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 10:31:37.909 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.ITransformRequest`1".
+2022-04-28 10:31:37.910 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Events.IHandleEvent`1".
+2022-04-28 10:31:37.910 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.Validations.IValidation`1".
+2022-04-28 10:31:37.911 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 10:31:37.969 +05:30 [Debug]   - Identified Id as key field for request: NewFeebackApi.Commands.StoreFeedback
+2022-04-28 10:31:37.976 +05:30 [Debug]   - Mapped NewFeebackApi.Commands.StoreFeedback to ^feedbacks$
+2022-04-28 10:31:37.978 +05:30 [Debug] Registered Mediators.
+2022-04-28 10:31:38.067 +05:30 [Debug] App Running
+2022-04-28 10:31:38.069 +05:30 [Debug] Hosting starting
+2022-04-28 10:31:38.302 +05:30 [Debug] Connected to EventStore @ "nats://localhost:4222" : "a1558faa-2286-4e8d-b2b1-90e3c5eead56".
+2022-04-28 10:31:38.575 +05:30 [Debug] Using development certificate: "CN=localhost" (Thumbprint: "3C19203D38EC9FC78A283179257AE9B8B2896303")
+2022-04-28 10:31:38.599 +05:30 [Information] Now listening on: "https://localhost:7051"
+2022-04-28 10:31:38.601 +05:30 [Information] Now listening on: "http://localhost:5102"
+2022-04-28 10:31:38.602 +05:30 [Debug] Loaded hosting startup assembly "NewApi"
+2022-04-28 10:31:38.602 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-04-28 10:31:38.603 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-04-28 10:31:38.603 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2022-04-28 10:31:38.604 +05:30 [Information] Hosting environment: "Development"
+2022-04-28 10:31:38.605 +05:30 [Information] Content root path: "E:\test\NewApi\"
+2022-04-28 10:32:09.112 +05:30 [Debug] Starting with program startup
+2022-04-28 10:32:09.490 +05:30 [Information] Connected to Cache @ "localhost:9003"
+2022-04-28 10:32:09.707 +05:30 [Information] Connected to SqlDb @ "Server=localhost;Port=9001;Database=axelius;Username=administrator;Password=dev@2018;"
+2022-04-28 10:32:10.246 +05:30 [Information] Connected to DocumentDb @ "http://localhost:9002"
+2022-04-28 10:32:10.303 +05:30 [Debug] Registered DotNet Core-Services.
+2022-04-28 10:32:10.304 +05:30 [Debug] Registered Utilities.
+2022-04-28 10:32:10.312 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.IQuery`2".
+2022-04-28 10:32:10.313 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.ITransformQueryResult`2".
+2022-04-28 10:32:10.313 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`2".
+2022-04-28 10:32:10.314 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`1".
+2022-04-28 10:32:10.314 +05:30 [Debug] --- NewFeebackApi.Commands.StoreFeedbackHandler
+2022-04-28 10:32:10.315 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 10:32:10.315 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.ITransformRequest`1".
+2022-04-28 10:32:10.316 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Events.IHandleEvent`1".
+2022-04-28 10:32:10.316 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.Validations.IValidation`1".
+2022-04-28 10:32:10.317 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 10:32:10.333 +05:30 [Debug]   - Identified Id as key field for request: NewFeebackApi.Commands.StoreFeedback
+2022-04-28 10:32:10.341 +05:30 [Debug]   - Mapped NewFeebackApi.Commands.StoreFeedback to ^feedbacks$
+2022-04-28 10:32:10.342 +05:30 [Debug] Registered Mediators.
+2022-04-28 10:32:10.385 +05:30 [Debug] App Running
+2022-04-28 10:32:10.388 +05:30 [Debug] Hosting starting
+2022-04-28 10:32:10.517 +05:30 [Debug] Connected to EventStore @ "nats://localhost:4222" : "7d38519a-34a0-4f33-a56a-c13e27f794c8".
+2022-04-28 10:32:10.612 +05:30 [Debug] Using development certificate: "CN=localhost" (Thumbprint: "3C19203D38EC9FC78A283179257AE9B8B2896303")
+2022-04-28 10:32:10.630 +05:30 [Information] Now listening on: "https://localhost:7051"
+2022-04-28 10:32:10.630 +05:30 [Information] Now listening on: "http://localhost:5102"
+2022-04-28 10:32:10.631 +05:30 [Debug] Loaded hosting startup assembly "NewApi"
+2022-04-28 10:32:10.631 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-04-28 10:32:10.632 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-04-28 10:32:10.632 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2022-04-28 10:32:10.633 +05:30 [Information] Hosting environment: "Development"
+2022-04-28 10:32:10.633 +05:30 [Information] Content root path: "E:\test\NewApi\"
+2022-04-28 10:32:10.664 +05:30 [Debug] Connection id ""0HMH8QH07T94A"" received FIN.
+2022-04-28 10:32:30.045 +05:30 [Debug] Starting with program startup
+2022-04-28 10:32:30.428 +05:30 [Information] Connected to Cache @ "localhost:9003"
+2022-04-28 10:32:30.647 +05:30 [Information] Connected to SqlDb @ "Server=localhost;Port=9001;Database=axelius;Username=administrator;Password=dev@2018;"
+2022-04-28 10:32:31.187 +05:30 [Information] Connected to DocumentDb @ "http://localhost:9002"
+2022-04-28 10:32:31.244 +05:30 [Debug] Registered DotNet Core-Services.
+2022-04-28 10:32:31.245 +05:30 [Debug] Registered Utilities.
+2022-04-28 10:32:31.253 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.IQuery`2".
+2022-04-28 10:32:31.254 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.ITransformQueryResult`2".
+2022-04-28 10:32:31.255 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`2".
+2022-04-28 10:32:31.256 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`1".
+2022-04-28 10:32:31.256 +05:30 [Debug] --- NewFeebackApi.Commands.StoreFeedbackHandler
+2022-04-28 10:32:31.257 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 10:32:31.257 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.ITransformRequest`1".
+2022-04-28 10:32:31.258 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Events.IHandleEvent`1".
+2022-04-28 10:32:31.258 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.Validations.IValidation`1".
+2022-04-28 10:32:31.259 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 10:32:31.276 +05:30 [Debug]   - Identified Id as key field for request: NewFeebackApi.Commands.StoreFeedback
+2022-04-28 10:32:31.283 +05:30 [Debug]   - Mapped NewFeebackApi.Commands.StoreFeedback to ^feedbacks$
+2022-04-28 10:32:31.284 +05:30 [Debug] Registered Mediators.
+2022-04-28 10:32:31.325 +05:30 [Debug] App Running
+2022-04-28 10:32:31.327 +05:30 [Debug] Hosting starting
+2022-04-28 10:32:31.416 +05:30 [Debug] Connected to EventStore @ "nats://localhost:4222" : "ff090e18-f7c3-4a86-a7e6-047f5fecfd6a".
+2022-04-28 10:32:31.517 +05:30 [Debug] Using development certificate: "CN=localhost" (Thumbprint: "3C19203D38EC9FC78A283179257AE9B8B2896303")
+2022-04-28 10:32:31.535 +05:30 [Information] Now listening on: "https://localhost:7051"
+2022-04-28 10:32:31.536 +05:30 [Information] Now listening on: "http://localhost:5102"
+2022-04-28 10:32:31.536 +05:30 [Debug] Loaded hosting startup assembly "NewApi"
+2022-04-28 10:32:31.537 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-04-28 10:32:31.537 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-04-28 10:32:31.537 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2022-04-28 10:32:31.538 +05:30 [Information] Hosting environment: "Development"
+2022-04-28 10:32:31.539 +05:30 [Information] Content root path: "E:\test\NewApi\"
+2022-04-28 10:32:35.141 +05:30 [Fatal] An error occurred starting the application
+System.AggregateException: One or more errors occurred. (Value cannot be null. (Parameter 'logger'))
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogError(ILogger logger, Exception exception, String message, Object[] args)
+   at Axelius.OnApplicationStarted.BuildSqlDb()
+   at Axelius.Program.<>c__DisplayClass3_0.<RunApi>b__0()
+   at System.Threading.CancellationToken.<>c.<Register>b__12_0(Object obj)
+   at System.Threading.CancellationTokenSource.Invoke(Delegate d, Object state, CancellationTokenSource source)
+   at System.Threading.CancellationTokenSource.CallbackNode.<>c.<ExecuteCallback>b__9_0(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.CancellationTokenSource.CallbackNode.ExecuteCallback()
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   --- End of inner exception stack trace ---
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   at System.Threading.CancellationTokenSource.NotifyCancellation(Boolean throwOnFirstException)
+   at System.Threading.CancellationTokenSource.Cancel(Boolean throwOnFirstException)
+   at Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted()
+2022-04-28 10:32:35.143 +05:30 [Debug] Connection id ""0HMH8QH7HDT27"" received FIN.
+2022-04-28 10:32:35.143 +05:30 [Debug] Connection id ""0HMH8QH7HDT26"" received FIN.
+2022-04-28 10:32:35.289 +05:30 [Debug] Hosting started
+2022-04-28 10:32:35.296 +05:30 [Debug] Connection id ""0HMH8QH7HDT27"" accepted.
+2022-04-28 10:32:35.296 +05:30 [Debug] Connection id ""0HMH8QH7HDT26"" accepted.
+2022-04-28 10:32:35.297 +05:30 [Debug] Connection id ""0HMH8QH7HDT27"" started.
+2022-04-28 10:32:35.298 +05:30 [Debug] Connection id ""0HMH8QH7HDT26"" started.
+2022-04-28 10:32:35.299 +05:30 [Debug] Connection id ""0HMH8QH7HDT28"" accepted.
+2022-04-28 10:32:35.300 +05:30 [Debug] Connection id ""0HMH8QH7HDT28"" started.
+2022-04-28 10:32:35.300 +05:30 [Debug] Connection id ""0HMH8QH7HDT29"" accepted.
+2022-04-28 10:32:35.302 +05:30 [Debug] Connection id ""0HMH8QH7HDT29"" started.
+2022-04-28 10:32:35.312 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 10:32:35.312 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 10:32:35.320 +05:30 [Debug] Connection id ""0HMH8QH7HDT26"" stopped.
+2022-04-28 10:32:35.320 +05:30 [Debug] Connection id ""0HMH8QH7HDT27"" stopped.
+2022-04-28 10:32:35.330 +05:30 [Debug] Connection id ""0HMH8QH7HDT27"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 10:32:35.330 +05:30 [Debug] Connection id ""0HMH8QH7HDT26"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 10:32:35.333 +05:30 [Debug] Connection id ""0HMH8QH7HDT28"" received FIN.
+2022-04-28 10:32:35.340 +05:30 [Debug] Connection "0HMH8QH7HDT29" established using the following protocol: Tls13
+2022-04-28 10:32:35.340 +05:30 [Debug] Connection "0HMH8QH7HDT28" established using the following protocol: Tls13
+2022-04-28 10:32:35.352 +05:30 [Debug] Connection id ""0HMH8QH7HDT28"" is closed. The last processed stream ID was 0.
+2022-04-28 10:32:35.353 +05:30 [Debug] Connection id ""0HMH8QH7HDT28"" sending FIN because: ""The client closed the connection.""
+2022-04-28 10:32:35.355 +05:30 [Debug] Connection id ""0HMH8QH7HDT28"" stopped.
+2022-04-28 10:32:35.394 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/index.html - -
+2022-04-28 10:32:35.443 +05:30 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-04-28 10:32:35.531 +05:30 [Debug] Response markup is scheduled to include browser refresh script injection.
+2022-04-28 10:32:35.629 +05:30 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 183.2054 ms
+2022-04-28 10:32:35.634 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 10:32:35.635 +05:30 [Debug] Response markup was updated to include browser refresh script injection.
+2022-04-28 10:32:35.639 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/index.html - - - 200 - text/html;charset=utf-8 247.1743ms
+2022-04-28 10:32:35.640 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - - - 200 11970 application/javascript;+charset=utf-8 5.9952ms
+2022-04-28 10:32:35.800 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - -
+2022-04-28 10:32:35.877 +05:30 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 75.5180 ms
+2022-04-28 10:32:35.880 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.2038ms
+2022-04-28 10:33:13.717 +05:30 [Information] Request starting HTTP/2 POST https://localhost:7051/feedbacks application/json 226
+2022-04-28 10:33:13.726 +05:30 [Debug] "POST" requests are not supported
+2022-04-28 10:33:13.786 +05:30 [Debug] Connection id ""0HMH8QH7HDT29"", Request id ""0HMH8QH7HDT29:00000007"": started reading request body.
+2022-04-28 10:33:13.788 +05:30 [Debug] Connection id ""0HMH8QH7HDT29"", Request id ""0HMH8QH7HDT29:00000007"": done reading request body.
+2022-04-28 10:33:14.014 +05:30 [Debug] Validating for request:string
+2022-04-28 10:33:14.052 +05:30 [Debug] Generating keys for request:string
+2022-04-28 10:33:14.057 +05:30 [Debug] Generating key for field:Int64
+2022-04-28 10:33:14.333 +05:30 [Debug] Attempting to setup sequence for core.feedbacks_sequence.
+2022-04-28 10:33:14.671 +05:30 [Debug] Validation was successful, request: string.
+2022-04-28 10:33:14.672 +05:30 [Debug] Attempting to execute command, request: string.
+2022-04-28 10:33:14.676 +05:30 [Debug] Axelius.Storages.SqlDb.SqlRepository registered successfully.
+2022-04-28 10:33:14.679 +05:30 [Debug] Axelius.Storages.DocumentDb.DocumentSessionFactory registered successfully.
+2022-04-28 10:33:14.681 +05:30 [Debug] Running command transformations for request:string
+2022-04-28 10:33:14.685 +05:30 [Debug] Executing service for request:string
+2022-04-28 10:33:14.697 +05:30 [Debug] Running post command for request:string
+2022-04-28 10:33:14.700 +05:30 [Debug] Command execution status: Executed, request: string.
+2022-04-28 10:33:14.703 +05:30 [Debug] Execution status: Executed, request: string.
+2022-04-28 10:33:14.754 +05:30 [Information] HTTP "POST" "/feedbacks" responded 200 in 1032.3417 ms
+2022-04-28 10:33:14.758 +05:30 [Information] Request finished HTTP/2 POST https://localhost:7051/feedbacks application/json 226 - 200 - application/json 1041.3492ms
+2022-04-28 10:33:57.989 +05:30 [Debug] Connection id ""0HMH8QH7HDT29"" received FIN.
+2022-04-28 10:33:57.992 +05:30 [Debug] Connection id ""0HMH8QH7HDT29"" is closed. The last processed stream ID was 7.
+2022-04-28 10:33:57.998 +05:30 [Debug] Connection id ""0HMH8QH7HDT29"" sending FIN because: ""The client closed the connection.""
+2022-04-28 10:33:58.004 +05:30 [Debug] Connection id ""0HMH8QH7HDT29"" stopped.
+2022-04-28 14:18:08.661 +05:30 [Debug] Starting with program startup
+2022-04-28 14:18:09.202 +05:30 [Information] Connected to Cache @ "localhost:9003"
+2022-04-28 14:18:09.802 +05:30 [Information] Connected to SqlDb @ "Server=localhost;Port=9001;Database=axelius;Username=administrator;Password=dev@2018;"
+2022-04-28 14:18:10.867 +05:30 [Information] Connected to DocumentDb @ "http://localhost:9002"
+2022-04-28 14:18:11.175 +05:30 [Debug] Registered DotNet Core-Services.
+2022-04-28 14:18:11.176 +05:30 [Debug] Registered Utilities.
+2022-04-28 14:18:11.263 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.IQuery`2".
+2022-04-28 14:18:11.264 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.ITransformQueryResult`2".
+2022-04-28 14:18:11.265 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`2".
+2022-04-28 14:18:11.265 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`1".
+2022-04-28 14:18:11.266 +05:30 [Debug] --- NewFeebackApi.Commands.StoreFeedbackHandler
+2022-04-28 14:18:11.266 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 14:18:11.267 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.ITransformRequest`1".
+2022-04-28 14:18:11.268 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Events.IHandleEvent`1".
+2022-04-28 14:18:11.268 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.Validations.IValidation`1".
+2022-04-28 14:18:11.269 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 14:18:11.356 +05:30 [Debug]   - Identified Id as key field for request: NewFeebackApi.Commands.StoreFeedback
+2022-04-28 14:18:11.364 +05:30 [Debug]   - Mapped NewFeebackApi.Commands.StoreFeedback to ^feedbacks$
+2022-04-28 14:18:11.365 +05:30 [Debug] Registered Mediators.
+2022-04-28 14:18:11.449 +05:30 [Debug] App Running
+2022-04-28 14:18:11.451 +05:30 [Debug] Hosting starting
+2022-04-28 14:18:11.708 +05:30 [Debug] Connected to EventStore @ "nats://localhost:4222" : "632eabcc-935c-4cb9-b45c-f25fe00654c5".
+2022-04-28 14:18:11.807 +05:30 [Debug] Using development certificate: "CN=localhost" (Thumbprint: "3C19203D38EC9FC78A283179257AE9B8B2896303")
+2022-04-28 14:18:11.825 +05:30 [Information] Now listening on: "https://localhost:7051"
+2022-04-28 14:18:11.826 +05:30 [Information] Now listening on: "http://localhost:5102"
+2022-04-28 14:18:11.826 +05:30 [Debug] Loaded hosting startup assembly "NewApi"
+2022-04-28 14:18:11.827 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-04-28 14:18:11.827 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-04-28 14:18:11.828 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2022-04-28 14:18:11.828 +05:30 [Information] Hosting environment: "Development"
+2022-04-28 14:18:11.829 +05:30 [Information] Content root path: "E:\test\NewApi\"
+2022-04-28 14:18:11.833 +05:30 [Fatal] An error occurred starting the application
+System.AggregateException: One or more errors occurred. (Value cannot be null. (Parameter 'logger'))
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogError(ILogger logger, Exception exception, String message, Object[] args)
+   at Axelius.OnApplicationStarted.BuildSqlDb()
+   at Axelius.Program.<>c__DisplayClass3_0.<RunApi>b__0()
+   at System.Threading.CancellationToken.<>c.<Register>b__12_0(Object obj)
+   at System.Threading.CancellationTokenSource.Invoke(Delegate d, Object state, CancellationTokenSource source)
+   at System.Threading.CancellationTokenSource.CallbackNode.<>c.<ExecuteCallback>b__9_0(Object s)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.CancellationTokenSource.CallbackNode.ExecuteCallback()
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   --- End of inner exception stack trace ---
+   at System.Threading.CancellationTokenSource.ExecuteCallbackHandlers(Boolean throwOnFirstException)
+   at System.Threading.CancellationTokenSource.NotifyCancellation(Boolean throwOnFirstException)
+   at System.Threading.CancellationTokenSource.Cancel(Boolean throwOnFirstException)
+   at Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted()
+2022-04-28 14:18:11.858 +05:30 [Debug] Hosting started
+2022-04-28 14:18:12.049 +05:30 [Debug] Connection id ""0HMH8UF9RCTAM"" accepted.
+2022-04-28 14:18:12.049 +05:30 [Debug] Connection id ""0HMH8UF9RCTAL"" accepted.
+2022-04-28 14:18:12.052 +05:30 [Debug] Connection id ""0HMH8UF9RCTAM"" started.
+2022-04-28 14:18:12.053 +05:30 [Debug] Connection id ""0HMH8UF9RCTAL"" started.
+2022-04-28 14:18:12.056 +05:30 [Debug] Connection id ""0HMH8UF9RCTAL"" received FIN.
+2022-04-28 14:18:12.056 +05:30 [Debug] Connection id ""0HMH8UF9RCTAM"" received FIN.
+2022-04-28 14:18:12.067 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 14:18:12.067 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 14:18:12.076 +05:30 [Debug] Connection id ""0HMH8UF9RCTAL"" stopped.
+2022-04-28 14:18:12.076 +05:30 [Debug] Connection id ""0HMH8UF9RCTAM"" stopped.
+2022-04-28 14:18:12.080 +05:30 [Debug] Connection id ""0HMH8UF9RCTAL"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 14:18:12.085 +05:30 [Debug] Connection id ""0HMH8UF9RCTAM"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 14:18:12.441 +05:30 [Debug] Connection id ""0HMH8UF9RCTAN"" accepted.
+2022-04-28 14:18:12.470 +05:30 [Debug] Connection id ""0HMH8UF9RCTAN"" started.
+2022-04-28 14:18:12.560 +05:30 [Debug] Connection "0HMH8UF9RCTAN" established using the following protocol: Tls13
+2022-04-28 14:18:12.622 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/index.html - -
+2022-04-28 14:18:12.655 +05:30 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-04-28 14:18:12.728 +05:30 [Debug] Response markup is scheduled to include browser refresh script injection.
+2022-04-28 14:18:12.781 +05:30 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 123.1980 ms
+2022-04-28 14:18:12.786 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/swagger-ui-standalone-preset.js - -
+2022-04-28 14:18:12.786 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/swagger-ui.css - -
+2022-04-28 14:18:12.786 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/swagger-ui-bundle.js - -
+2022-04-28 14:18:12.786 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 14:18:12.787 +05:30 [Debug] Response markup was updated to include browser refresh script injection.
+2022-04-28 14:18:12.797 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/index.html - - - 200 - text/html;charset=utf-8 178.7846ms
+2022-04-28 14:18:12.797 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - - - 200 11970 application/javascript;+charset=utf-8 10.8522ms
+2022-04-28 14:18:12.800 +05:30 [Information] The file "/swagger-ui.css" was not modified
+2022-04-28 14:18:12.800 +05:30 [Information] The file "/swagger-ui-bundle.js" was not modified
+2022-04-28 14:18:12.800 +05:30 [Information] The file "/swagger-ui-standalone-preset.js" was not modified
+2022-04-28 14:18:12.805 +05:30 [Debug] Handled. Status code: 304 File: "/swagger-ui-bundle.js"
+2022-04-28 14:18:12.805 +05:30 [Debug] Handled. Status code: 304 File: "/swagger-ui-standalone-preset.js"
+2022-04-28 14:18:12.805 +05:30 [Debug] Handled. Status code: 304 File: "/swagger-ui.css"
+2022-04-28 14:18:12.806 +05:30 [Information] HTTP "GET" "/swagger/swagger-ui-bundle.js" responded 304 in 13.3426 ms
+2022-04-28 14:18:12.807 +05:30 [Information] HTTP "GET" "/swagger/swagger-ui-standalone-preset.js" responded 304 in 20.7361 ms
+2022-04-28 14:18:12.808 +05:30 [Information] HTTP "GET" "/swagger/swagger-ui.css" responded 304 in 19.6410 ms
+2022-04-28 14:18:12.810 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/swagger-ui-bundle.js - - - 304 - application/javascript 24.2636ms
+2022-04-28 14:18:12.812 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/swagger-ui-standalone-preset.js - - - 304 - application/javascript 25.8725ms
+2022-04-28 14:18:12.813 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/swagger-ui.css - - - 304 - text/css 27.6145ms
+2022-04-28 14:18:13.230 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - -
+2022-04-28 14:18:13.397 +05:30 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 160.0834 ms
+2022-04-28 14:18:13.530 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 299.7087ms
+2022-04-28 14:19:08.506 +05:30 [Information] Request starting HTTP/2 POST https://localhost:7051/feedbacks application/json 223
+2022-04-28 14:19:08.514 +05:30 [Debug] "POST" requests are not supported
+2022-04-28 14:19:08.532 +05:30 [Debug] Connection id ""0HMH8UF9RCTAN"", Request id ""0HMH8UF9RCTAN:0000000D"": started reading request body.
+2022-04-28 14:19:08.533 +05:30 [Debug] Connection id ""0HMH8UF9RCTAN"", Request id ""0HMH8UF9RCTAN:0000000D"": done reading request body.
+2022-04-28 14:19:08.651 +05:30 [Debug] Validating for request:string
+2022-04-28 14:19:08.682 +05:30 [Debug] Generating keys for request:string
+2022-04-28 14:19:08.686 +05:30 [Debug] Generating key for field:Int64
+2022-04-28 14:19:08.901 +05:30 [Debug] Attempting to setup sequence for core.feedbacks_sequence.
+2022-04-28 14:19:09.175 +05:30 [Debug] Validation was successful, request: string.
+2022-04-28 14:19:09.177 +05:30 [Debug] Attempting to execute command, request: string.
+2022-04-28 14:19:09.180 +05:30 [Debug] Axelius.Storages.SqlDb.SqlRepository registered successfully.
+2022-04-28 14:19:09.182 +05:30 [Debug] Axelius.Storages.DocumentDb.DocumentSessionFactory registered successfully.
+2022-04-28 14:19:09.183 +05:30 [Debug] Running command transformations for request:string
+2022-04-28 14:19:09.185 +05:30 [Debug] Executing service for request:string
+2022-04-28 14:19:09.370 +05:30 [Error] Error occured while handling request "System.AggregateException: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.InvalidCastException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array/range. See the Npgsql.EnableLegacyTimestampBehavior AppContext switch to enable legacy behavior.
+   at Npgsql.Internal.TypeHandlers.DateTimeHandlers.TimestampHandler.ValidateAndGetLength(DateTime value, NpgsqlParameter parameter)
+   at Npgsql.Internal.TypeHandlers.DateTimeHandlers.TimestampHandler.ValidateObjectAndGetLength(Object value, NpgsqlLengthCache& lengthCache, NpgsqlParameter parameter)
+   at Npgsql.NpgsqlParameter.ValidateAndGetLength()
+   at Npgsql.NpgsqlParameterCollection.ValidateAndBind(ConnectorTypeMapper typeMapper)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Axelius.Storages.SqlDb.SqlRepository.Save(String id)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Axelius.Storages.UnitOfWork.UnitOfWork.Save(String id)
+   at Axelius.Mediators.Requests.RequestHelpers.ExecuteCommand(IServiceScope scope, CommandRequestDefinition definition, Request request)
+   at Axelius.Mediators.Requests.RequestHelpers.HandleCommand(IServiceScope scope, CommandRequestDefinition definition, Request request)
+   at Axelius.Mediators.MediatorMiddleware.HandleRequest(RequestDefinition definition, HttpContext context)
+   at Axelius.Mediators.MediatorMiddleware.InvokeAsync(HttpContext context)" for "/feedbacks"
+2022-04-28 14:19:09.383 +05:30 [Error] HTTP "POST" "/feedbacks" responded 500 in 868.5537 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Axelius.Mediators.MediatorMiddleware.WriteResponse(RestResponse response, HttpContext context)
+   at Axelius.Mediators.MediatorMiddleware.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-04-28 14:19:09.387 +05:30 [Error] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Axelius.Mediators.MediatorMiddleware.WriteResponse(RestResponse response, HttpContext context)
+   at Axelius.Mediators.MediatorMiddleware.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-28 14:19:09.400 +05:30 [Information] Request finished HTTP/2 POST https://localhost:7051/feedbacks application/json 223 - 500 - text/plain;+charset=utf-8 893.9137ms
+2022-04-28 14:20:09.751 +05:30 [Debug] Starting with program startup
+2022-04-28 14:20:10.256 +05:30 [Information] Connected to Cache @ "localhost:9003"
+2022-04-28 14:20:10.827 +05:30 [Information] Connected to SqlDb @ "Server=localhost;Port=9001;Database=axelius;Username=administrator;Password=dev@2018;"
+2022-04-28 14:20:11.802 +05:30 [Information] Connected to DocumentDb @ "http://localhost:9002"
+2022-04-28 14:20:12.098 +05:30 [Debug] Registered DotNet Core-Services.
+2022-04-28 14:20:12.099 +05:30 [Debug] Registered Utilities.
+2022-04-28 14:20:12.201 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.IQuery`2".
+2022-04-28 14:20:12.202 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.ITransformQueryResult`2".
+2022-04-28 14:20:12.203 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`2".
+2022-04-28 14:20:12.204 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`1".
+2022-04-28 14:20:12.204 +05:30 [Debug] --- NewFeebackApi.Commands.StoreFeedbackHandler
+2022-04-28 14:20:12.205 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 14:20:12.205 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.ITransformRequest`1".
+2022-04-28 14:20:12.206 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Events.IHandleEvent`1".
+2022-04-28 14:20:12.207 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.Validations.IValidation`1".
+2022-04-28 14:20:12.207 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 14:20:12.292 +05:30 [Debug]   - Identified Id as key field for request: NewFeebackApi.Commands.StoreFeedback
+2022-04-28 14:20:12.299 +05:30 [Debug]   - Mapped NewFeebackApi.Commands.StoreFeedback to ^feedbacks$
+2022-04-28 14:20:12.300 +05:30 [Debug] Registered Mediators.
+2022-04-28 14:20:12.396 +05:30 [Debug] App Running
+2022-04-28 14:20:12.398 +05:30 [Debug] Hosting starting
+2022-04-28 14:20:12.637 +05:30 [Debug] Connected to EventStore @ "nats://localhost:4222" : "cb039dc3-73a6-4f28-8483-76dea21285c3".
+2022-04-28 14:20:12.732 +05:30 [Debug] Using development certificate: "CN=localhost" (Thumbprint: "3C19203D38EC9FC78A283179257AE9B8B2896303")
+2022-04-28 14:20:12.750 +05:30 [Information] Now listening on: "https://localhost:7051"
+2022-04-28 14:20:12.751 +05:30 [Information] Now listening on: "http://localhost:5102"
+2022-04-28 14:20:12.751 +05:30 [Debug] Loaded hosting startup assembly "NewApi"
+2022-04-28 14:20:12.752 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-04-28 14:20:12.752 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-04-28 14:20:12.753 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2022-04-28 14:20:12.754 +05:30 [Information] Hosting environment: "Development"
+2022-04-28 14:20:12.754 +05:30 [Information] Content root path: "E:\test\NewApi\"
+2022-04-28 14:20:12.983 +05:30 [Debug] Attempting to setup sequence for core.feedbacks_sequence.
+2022-04-28 14:20:13.186 +05:30 [Debug] Connection id ""0HMH8UGDULLH6"" accepted.
+2022-04-28 14:20:13.186 +05:30 [Debug] Connection id ""0HMH8UGDULLH7"" accepted.
+2022-04-28 14:20:13.188 +05:30 [Debug] Connection id ""0HMH8UGDULLH6"" started.
+2022-04-28 14:20:13.188 +05:30 [Debug] Connection id ""0HMH8UGDULLH7"" started.
+2022-04-28 14:20:13.198 +05:30 [Debug] Connection id ""0HMH8UGDULLH6"" received FIN.
+2022-04-28 14:20:13.198 +05:30 [Debug] Connection id ""0HMH8UGDULLH7"" received FIN.
+2022-04-28 14:20:13.216 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 14:20:13.216 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 14:20:13.236 +05:30 [Debug] Hosting started
+2022-04-28 14:20:13.244 +05:30 [Debug] Connection id ""0HMH8UGDULLH6"" stopped.
+2022-04-28 14:20:13.244 +05:30 [Debug] Connection id ""0HMH8UGDULLH7"" stopped.
+2022-04-28 14:20:13.246 +05:30 [Debug] Connection id ""0HMH8UGDULLH7"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 14:20:13.246 +05:30 [Debug] Connection id ""0HMH8UGDULLH6"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 14:20:13.686 +05:30 [Debug] Connection id ""0HMH8UGDULLH8"" accepted.
+2022-04-28 14:20:13.712 +05:30 [Debug] Connection id ""0HMH8UGDULLH8"" started.
+2022-04-28 14:20:13.803 +05:30 [Debug] Connection "0HMH8UGDULLH8" established using the following protocol: Tls13
+2022-04-28 14:20:13.859 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/index.html - -
+2022-04-28 14:20:13.885 +05:30 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-04-28 14:20:13.957 +05:30 [Debug] Response markup is scheduled to include browser refresh script injection.
+2022-04-28 14:20:14.215 +05:30 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 326.3042 ms
+2022-04-28 14:20:14.229 +05:30 [Debug] Response markup was updated to include browser refresh script injection.
+2022-04-28 14:20:14.234 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/index.html - - - 200 - text/html;charset=utf-8 377.2156ms
+2022-04-28 14:20:14.337 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 14:20:14.350 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - - - 200 11970 application/javascript;+charset=utf-8 13.4237ms
+2022-04-28 14:20:14.691 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - -
+2022-04-28 14:20:14.968 +05:30 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 168.8409 ms
+2022-04-28 14:20:15.064 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 373.3397ms
+2022-04-28 14:20:37.837 +05:30 [Information] Request starting HTTP/2 POST https://localhost:7051/feedbacks application/json 229
+2022-04-28 14:20:37.842 +05:30 [Debug] "POST" requests are not supported
+2022-04-28 14:20:37.864 +05:30 [Debug] Connection id ""0HMH8UGDULLH8"", Request id ""0HMH8UGDULLH8:00000007"": started reading request body.
+2022-04-28 14:20:37.866 +05:30 [Debug] Connection id ""0HMH8UGDULLH8"", Request id ""0HMH8UGDULLH8:00000007"": done reading request body.
+2022-04-28 14:20:37.970 +05:30 [Debug] Validating for request:string
+2022-04-28 14:20:37.976 +05:30 [Debug] Generating keys for request:string
+2022-04-28 14:20:37.980 +05:30 [Debug] Generating key for field:Int64
+2022-04-28 14:20:38.022 +05:30 [Debug] Validation was successful, request: string.
+2022-04-28 14:20:38.024 +05:30 [Debug] Attempting to execute command, request: string.
+2022-04-28 14:20:38.028 +05:30 [Debug] Axelius.Storages.SqlDb.SqlRepository registered successfully.
+2022-04-28 14:20:38.029 +05:30 [Debug] Axelius.Storages.DocumentDb.DocumentSessionFactory registered successfully.
+2022-04-28 14:20:38.030 +05:30 [Debug] Running command transformations for request:string
+2022-04-28 14:20:38.032 +05:30 [Debug] Executing service for request:string
+2022-04-28 14:20:41.795 +05:30 [Error] Error occured while handling request "System.AggregateException: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.InvalidCastException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array/range. See the Npgsql.EnableLegacyTimestampBehavior AppContext switch to enable legacy behavior.
+   at Npgsql.Internal.TypeHandlers.DateTimeHandlers.TimestampHandler.ValidateAndGetLength(DateTime value, NpgsqlParameter parameter)
+   at Npgsql.Internal.TypeHandlers.DateTimeHandlers.TimestampHandler.ValidateObjectAndGetLength(Object value, NpgsqlLengthCache& lengthCache, NpgsqlParameter parameter)
+   at Npgsql.NpgsqlParameter.ValidateAndGetLength()
+   at Npgsql.NpgsqlParameterCollection.ValidateAndBind(ConnectorTypeMapper typeMapper)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Axelius.Storages.SqlDb.SqlRepository.Save(String id)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Axelius.Storages.UnitOfWork.UnitOfWork.Save(String id)
+   at Axelius.Mediators.Requests.RequestHelpers.ExecuteCommand(IServiceScope scope, CommandRequestDefinition definition, Request request)
+   at Axelius.Mediators.Requests.RequestHelpers.HandleCommand(IServiceScope scope, CommandRequestDefinition definition, Request request)
+   at Axelius.Mediators.MediatorMiddleware.HandleRequest(RequestDefinition definition, HttpContext context)
+   at Axelius.Mediators.MediatorMiddleware.InvokeAsync(HttpContext context)" for "/feedbacks"
+2022-04-28 14:20:56.125 +05:30 [Error] HTTP "POST" "/feedbacks" responded 500 in 18285.6682 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Axelius.Mediators.MediatorMiddleware.WriteResponse(RestResponse response, HttpContext context)
+   at Axelius.Mediators.MediatorMiddleware.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2022-04-28 14:20:56.133 +05:30 [Error] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Axelius.Mediators.MediatorMiddleware.WriteResponse(RestResponse response, HttpContext context)
+   at Axelius.Mediators.MediatorMiddleware.InvokeAsync(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-04-28 14:20:56.138 +05:30 [Information] Request finished HTTP/2 POST https://localhost:7051/feedbacks application/json 229 - 500 - text/plain;+charset=utf-8 18301.6480ms
+2022-04-28 14:21:08.460 +05:30 [Information] Request starting HTTP/2 POST https://localhost:7051/feedbacks application/json 229
+2022-04-28 14:21:08.461 +05:30 [Debug] "POST" requests are not supported
+2022-04-28 14:21:08.462 +05:30 [Debug] Connection id ""0HMH8UGDULLH8"", Request id ""0HMH8UGDULLH8:00000009"": started reading request body.
+2022-04-28 14:21:08.463 +05:30 [Debug] Connection id ""0HMH8UGDULLH8"", Request id ""0HMH8UGDULLH8:00000009"": done reading request body.
+2022-04-28 14:21:08.466 +05:30 [Debug] Validating for request:string
+2022-04-28 14:21:08.468 +05:30 [Debug] Generating keys for request:string
+2022-04-28 14:21:08.470 +05:30 [Debug] Generating key for field:Int64
+2022-04-28 14:21:08.512 +05:30 [Debug] Validation was successful, request: string.
+2022-04-28 14:21:08.514 +05:30 [Debug] Attempting to execute command, request: string.
+2022-04-28 14:21:08.514 +05:30 [Debug] Axelius.Storages.SqlDb.SqlRepository registered successfully.
+2022-04-28 14:21:08.515 +05:30 [Debug] Axelius.Storages.DocumentDb.DocumentSessionFactory registered successfully.
+2022-04-28 14:21:08.516 +05:30 [Debug] Running command transformations for request:string
+2022-04-28 14:21:08.516 +05:30 [Debug] Executing service for request:string
+2022-04-28 14:21:10.753 +05:30 [Error] Error occured while handling request "System.AggregateException: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.InvalidCastException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array/range. See the Npgsql.EnableLegacyTimestampBehavior AppContext switch to enable legacy behavior.
+   at Npgsql.Internal.TypeHandlers.DateTimeHandlers.TimestampHandler.ValidateAndGetLength(DateTime value, NpgsqlParameter parameter)
+   at Npgsql.Internal.TypeHandlers.DateTimeHandlers.TimestampHandler.ValidateObjectAndGetLength(Object value, NpgsqlLengthCache& lengthCache, NpgsqlParameter parameter)
+   at Npgsql.NpgsqlParameter.ValidateAndGetLength()
+   at Npgsql.NpgsqlParameterCollection.ValidateAndBind(ConnectorTypeMapper typeMapper)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Axelius.Storages.SqlDb.SqlRepository.Save(String id)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Axelius.Storages.UnitOfWork.UnitOfWork.Save(String id)
+   at Axelius.Mediators.Requests.RequestHelpers.ExecuteCommand(IServiceScope scope, CommandRequestDefinition definition, Request request)
+   at Axelius.Mediators.Requests.RequestHelpers.HandleCommand(IServiceScope scope, CommandRequestDefinition definition, Request request)
+   at Axelius.Mediators.MediatorMiddleware.HandleRequest(RequestDefinition definition, HttpContext context)
+   at Axelius.Mediators.MediatorMiddleware.InvokeAsync(HttpContext context)" for "/feedbacks"
+2022-04-28 14:21:52.451 +05:30 [Debug] Starting with program startup
+2022-04-28 14:21:52.947 +05:30 [Information] Connected to Cache @ "localhost:9003"
+2022-04-28 14:21:53.562 +05:30 [Information] Connected to SqlDb @ "Server=localhost;Port=9001;Database=axelius;Username=administrator;Password=dev@2018;"
+2022-04-28 14:21:54.519 +05:30 [Information] Connected to DocumentDb @ "http://localhost:9002"
+2022-04-28 14:21:54.835 +05:30 [Debug] Registered DotNet Core-Services.
+2022-04-28 14:21:54.837 +05:30 [Debug] Registered Utilities.
+2022-04-28 14:21:54.928 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.IQuery`2".
+2022-04-28 14:21:54.929 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.ITransformQueryResult`2".
+2022-04-28 14:21:54.930 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`2".
+2022-04-28 14:21:54.931 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`1".
+2022-04-28 14:21:54.931 +05:30 [Debug] --- NewFeebackApi.Commands.StoreFeedbackHandler
+2022-04-28 14:21:54.932 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 14:21:54.932 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.ITransformRequest`1".
+2022-04-28 14:21:54.933 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Events.IHandleEvent`1".
+2022-04-28 14:21:54.933 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.Validations.IValidation`1".
+2022-04-28 14:21:54.934 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 14:21:55.021 +05:30 [Debug]   - Identified Id as key field for request: NewFeebackApi.Commands.StoreFeedback
+2022-04-28 14:21:55.029 +05:30 [Debug]   - Mapped NewFeebackApi.Commands.StoreFeedback to ^feedbacks$
+2022-04-28 14:21:55.030 +05:30 [Debug] Registered Mediators.
+2022-04-28 14:21:55.125 +05:30 [Debug] App Running
+2022-04-28 14:21:55.127 +05:30 [Debug] Hosting starting
+2022-04-28 14:21:55.367 +05:30 [Debug] Connected to EventStore @ "nats://localhost:4222" : "a48e72bc-d5dc-4448-952a-ef8c31aa8e98".
+2022-04-28 14:21:55.462 +05:30 [Debug] Using development certificate: "CN=localhost" (Thumbprint: "3C19203D38EC9FC78A283179257AE9B8B2896303")
+2022-04-28 14:21:55.480 +05:30 [Information] Now listening on: "https://localhost:7051"
+2022-04-28 14:21:55.481 +05:30 [Information] Now listening on: "http://localhost:5102"
+2022-04-28 14:21:55.481 +05:30 [Debug] Loaded hosting startup assembly "NewApi"
+2022-04-28 14:21:55.482 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-04-28 14:21:55.482 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-04-28 14:21:55.483 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2022-04-28 14:21:55.483 +05:30 [Information] Hosting environment: "Development"
+2022-04-28 14:21:55.484 +05:30 [Information] Content root path: "E:\test\NewApi\"
+2022-04-28 14:21:55.708 +05:30 [Debug] Attempting to setup sequence for core.feedbacks_sequence.
+2022-04-28 14:21:55.886 +05:30 [Debug] Connection id ""0HMH8UHCI34OP"" accepted.
+2022-04-28 14:21:55.886 +05:30 [Debug] Connection id ""0HMH8UHCI34OQ"" accepted.
+2022-04-28 14:21:55.888 +05:30 [Debug] Connection id ""0HMH8UHCI34OP"" started.
+2022-04-28 14:21:55.889 +05:30 [Debug] Connection id ""0HMH8UHCI34OQ"" started.
+2022-04-28 14:21:55.922 +05:30 [Debug] Hosting started
+2022-04-28 14:21:55.928 +05:30 [Debug] Connection id ""0HMH8UHCI34OP"" received FIN.
+2022-04-28 14:21:55.928 +05:30 [Debug] Connection id ""0HMH8UHCI34OQ"" received FIN.
+2022-04-28 14:21:55.941 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 14:21:55.941 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 14:21:55.971 +05:30 [Debug] Connection id ""0HMH8UHCI34OQ"" stopped.
+2022-04-28 14:21:55.971 +05:30 [Debug] Connection id ""0HMH8UHCI34OP"" stopped.
+2022-04-28 14:21:55.974 +05:30 [Debug] Connection id ""0HMH8UHCI34OQ"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 14:21:55.974 +05:30 [Debug] Connection id ""0HMH8UHCI34OP"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 14:21:56.288 +05:30 [Debug] Connection id ""0HMH8UHCI34OR"" accepted.
+2022-04-28 14:21:56.298 +05:30 [Debug] Connection id ""0HMH8UHCI34OR"" started.
+2022-04-28 14:21:56.405 +05:30 [Debug] Connection "0HMH8UHCI34OR" established using the following protocol: Tls13
+2022-04-28 14:21:56.475 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/index.html - -
+2022-04-28 14:21:56.502 +05:30 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-04-28 14:21:56.581 +05:30 [Debug] Response markup is scheduled to include browser refresh script injection.
+2022-04-28 14:21:56.639 +05:30 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 133.1377 ms
+2022-04-28 14:21:56.644 +05:30 [Debug] Response markup was updated to include browser refresh script injection.
+2022-04-28 14:21:56.644 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 14:21:56.648 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/index.html - - - 200 - text/html;charset=utf-8 177.3401ms
+2022-04-28 14:21:56.649 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - - - 200 11970 application/javascript;+charset=utf-8 4.3249ms
+2022-04-28 14:21:56.740 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - -
+2022-04-28 14:21:56.810 +05:30 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 68.4563 ms
+2022-04-28 14:21:56.883 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 142.1922ms
+2022-04-28 14:22:03.162 +05:30 [Information] Request starting HTTP/2 POST https://localhost:7051/feedbacks application/json 226
+2022-04-28 14:22:03.167 +05:30 [Debug] "POST" requests are not supported
+2022-04-28 14:22:03.186 +05:30 [Debug] Connection id ""0HMH8UHCI34OR"", Request id ""0HMH8UHCI34OR:00000007"": started reading request body.
+2022-04-28 14:22:03.188 +05:30 [Debug] Connection id ""0HMH8UHCI34OR"", Request id ""0HMH8UHCI34OR:00000007"": done reading request body.
+2022-04-28 14:22:03.291 +05:30 [Debug] Validating for request:string
+2022-04-28 14:22:03.296 +05:30 [Debug] Generating keys for request:string
+2022-04-28 14:22:03.298 +05:30 [Debug] Generating key for field:Int64
+2022-04-28 14:22:03.323 +05:30 [Debug] Validation was successful, request: string.
+2022-04-28 14:22:03.324 +05:30 [Debug] Attempting to execute command, request: string.
+2022-04-28 14:22:03.328 +05:30 [Debug] Axelius.Storages.SqlDb.SqlRepository registered successfully.
+2022-04-28 14:22:03.329 +05:30 [Debug] Axelius.Storages.DocumentDb.DocumentSessionFactory registered successfully.
+2022-04-28 14:22:03.330 +05:30 [Debug] Running command transformations for request:string
+2022-04-28 14:22:03.334 +05:30 [Debug] Executing service for request:string
+2022-04-28 14:22:05.552 +05:30 [Error] Error occured while handling request "System.AggregateException: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.InvalidCastException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array/range. See the Npgsql.EnableLegacyTimestampBehavior AppContext switch to enable legacy behavior.
+   at Npgsql.Internal.TypeHandlers.DateTimeHandlers.TimestampHandler.ValidateAndGetLength(DateTime value, NpgsqlParameter parameter)
+   at Npgsql.Internal.TypeHandlers.DateTimeHandlers.TimestampHandler.ValidateObjectAndGetLength(Object value, NpgsqlLengthCache& lengthCache, NpgsqlParameter parameter)
+   at Npgsql.NpgsqlParameter.ValidateAndGetLength()
+   at Npgsql.NpgsqlParameterCollection.ValidateAndBind(ConnectorTypeMapper typeMapper)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Axelius.Storages.SqlDb.SqlRepository.Save(String id)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Axelius.Storages.UnitOfWork.UnitOfWork.Save(String id)
+   at Axelius.Mediators.Requests.RequestHelpers.ExecuteCommand(IServiceScope scope, CommandRequestDefinition definition, Request request)
+   at Axelius.Mediators.Requests.RequestHelpers.HandleCommand(IServiceScope scope, CommandRequestDefinition definition, Request request)
+   at Axelius.Mediators.MediatorMiddleware.HandleRequest(RequestDefinition definition, HttpContext context)
+   at Axelius.Mediators.MediatorMiddleware.InvokeAsync(HttpContext context)" for "/feedbacks"
+2022-04-28 15:22:46.001 +05:30 [Debug] Starting with program startup
+2022-04-28 15:22:46.380 +05:30 [Information] Connected to Cache @ "localhost:9003"
+2022-04-28 15:22:46.595 +05:30 [Information] Connected to SqlDb @ "Server=localhost;Port=9001;Database=axelius;Username=administrator;Password=dev@2018;"
+2022-04-28 15:22:47.113 +05:30 [Information] Connected to DocumentDb @ "http://localhost:9002"
+2022-04-28 15:22:47.171 +05:30 [Debug] Registered DotNet Core-Services.
+2022-04-28 15:22:47.172 +05:30 [Debug] Registered Utilities.
+2022-04-28 15:22:47.179 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.IQuery`2".
+2022-04-28 15:22:47.180 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.ITransformQueryResult`2".
+2022-04-28 15:22:47.180 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`2".
+2022-04-28 15:22:47.181 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`1".
+2022-04-28 15:22:47.181 +05:30 [Debug] --- NewFeebackApi.Commands.StoreFeedbackHandler
+2022-04-28 15:22:47.182 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 15:22:47.182 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.ITransformRequest`1".
+2022-04-28 15:22:47.183 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Events.IHandleEvent`1".
+2022-04-28 15:22:47.183 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.Validations.IValidation`1".
+2022-04-28 15:22:47.184 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 15:22:47.201 +05:30 [Debug]   - Identified Id as key field for request: NewFeebackApi.Commands.StoreFeedback
+2022-04-28 15:22:47.208 +05:30 [Debug]   - Mapped NewFeebackApi.Commands.StoreFeedback to ^feedbacks$
+2022-04-28 15:22:47.208 +05:30 [Debug] Registered Mediators.
+2022-04-28 15:22:47.250 +05:30 [Debug] App Running
+2022-04-28 15:22:47.252 +05:30 [Debug] Hosting starting
+2022-04-28 15:22:47.342 +05:30 [Debug] Connected to EventStore @ "nats://localhost:4222" : "7f664a48-e191-4578-b64a-66b7702a93b4".
+2022-04-28 15:22:47.443 +05:30 [Debug] Using development certificate: "CN=localhost" (Thumbprint: "3C19203D38EC9FC78A283179257AE9B8B2896303")
+2022-04-28 15:22:47.461 +05:30 [Information] Now listening on: "https://localhost:7051"
+2022-04-28 15:22:47.462 +05:30 [Information] Now listening on: "http://localhost:5102"
+2022-04-28 15:22:47.463 +05:30 [Debug] Loaded hosting startup assembly "NewApi"
+2022-04-28 15:22:47.463 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-04-28 15:22:47.463 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-04-28 15:22:47.464 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2022-04-28 15:22:47.464 +05:30 [Information] Hosting environment: "Development"
+2022-04-28 15:22:47.465 +05:30 [Information] Content root path: "E:\test\NewApi\"
+2022-04-28 15:22:47.480 +05:30 [Debug] Connection id ""0HMH8VJCQDFNK"" received FIN.
+2022-04-28 15:22:47.486 +05:30 [Debug] Connection id ""0HMH8VJCQDFNK"" accepted.
+2022-04-28 15:22:47.490 +05:30 [Debug] Connection id ""0HMH8VJCQDFNK"" started.
+2022-04-28 15:22:47.514 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 15:22:47.545 +05:30 [Debug] Connection id ""0HMH8VJCQDFNK"" stopped.
+2022-04-28 15:22:47.549 +05:30 [Debug] Connection id ""0HMH8VJCQDFNK"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 15:22:47.881 +05:30 [Debug] Connection id ""0HMH8VJCQDFNL"" accepted.
+2022-04-28 15:22:47.906 +05:30 [Debug] Connection id ""0HMH8VJCQDFNL"" started.
+2022-04-28 15:22:48.019 +05:30 [Debug] Connection "0HMH8VJCQDFNL" established using the following protocol: Tls13
+2022-04-28 15:22:48.089 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/index.html - -
+2022-04-28 15:22:48.099 +05:30 [Debug] Attempting to setup sequence for core.feedbacks_sequence.
+2022-04-28 15:22:48.123 +05:30 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-04-28 15:22:48.203 +05:30 [Debug] Response markup is scheduled to include browser refresh script injection.
+2022-04-28 15:22:48.254 +05:30 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 127.7920 ms
+2022-04-28 15:22:48.261 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 15:22:48.261 +05:30 [Debug] Response markup was updated to include browser refresh script injection.
+2022-04-28 15:22:48.265 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/index.html - - - 200 - text/html;charset=utf-8 180.2222ms
+2022-04-28 15:22:48.266 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - - - 200 11970 application/javascript;+charset=utf-8 4.6609ms
+2022-04-28 15:22:48.757 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - -
+2022-04-28 15:22:48.758 +05:30 [Debug] Hosting started
+2022-04-28 15:22:48.842 +05:30 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 83.5607 ms
+2022-04-28 15:22:48.843 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.1016ms
+2022-04-28 15:23:03.913 +05:30 [Information] Request starting HTTP/2 POST https://localhost:7051/feedbacks application/json 225
+2022-04-28 15:23:03.918 +05:30 [Debug] "POST" requests are not supported
+2022-04-28 15:23:03.934 +05:30 [Debug] Connection id ""0HMH8VJCQDFNL"", Request id ""0HMH8VJCQDFNL:00000007"": started reading request body.
+2022-04-28 15:23:03.935 +05:30 [Debug] Connection id ""0HMH8VJCQDFNL"", Request id ""0HMH8VJCQDFNL:00000007"": done reading request body.
+2022-04-28 15:23:04.037 +05:30 [Debug] Validating for request:string
+2022-04-28 15:23:04.044 +05:30 [Debug] Generating keys for request:string
+2022-04-28 15:23:04.049 +05:30 [Debug] Generating key for field:Int64
+2022-04-28 15:23:04.087 +05:30 [Debug] Validation was successful, request: string.
+2022-04-28 15:23:04.087 +05:30 [Debug] Attempting to execute command, request: string.
+2022-04-28 15:23:04.090 +05:30 [Debug] Axelius.Storages.SqlDb.SqlRepository registered successfully.
+2022-04-28 15:23:04.091 +05:30 [Debug] Axelius.Storages.DocumentDb.DocumentSessionFactory registered successfully.
+2022-04-28 15:23:04.092 +05:30 [Debug] Running command transformations for request:string
+2022-04-28 15:23:04.094 +05:30 [Debug] Executing service for request:string
+2022-04-28 15:23:04.490 +05:30 [Error] Error occured while handling request "System.AggregateException: One or more errors occurred. (An error occurred while saving the entity changes. See the inner exception for details.)
+ ---> Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.InvalidCastException: Cannot write DateTime with Kind=UTC to PostgreSQL type 'timestamp without time zone', consider using 'timestamp with time zone'. Note that it's not possible to mix DateTimes with different Kinds in an array/range. See the Npgsql.EnableLegacyTimestampBehavior AppContext switch to enable legacy behavior.
+   at Npgsql.Internal.TypeHandlers.DateTimeHandlers.TimestampHandler.ValidateAndGetLength(DateTime value, NpgsqlParameter parameter)
+   at Npgsql.Internal.TypeHandlers.DateTimeHandlers.TimestampHandler.ValidateObjectAndGetLength(Object value, NpgsqlLengthCache& lengthCache, NpgsqlParameter parameter)
+   at Npgsql.NpgsqlParameter.ValidateAndGetLength()
+   at Npgsql.NpgsqlParameterCollection.ValidateAndBind(ConnectorTypeMapper typeMapper)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Axelius.Storages.SqlDb.SqlRepository.Save(String id)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at System.Threading.Tasks.Task.Wait()
+   at Axelius.Storages.UnitOfWork.UnitOfWork.Save(String id)
+   at Axelius.Mediators.Requests.RequestHelpers.ExecuteCommand(IServiceScope scope, CommandRequestDefinition definition, Request request)
+   at Axelius.Mediators.Requests.RequestHelpers.HandleCommand(IServiceScope scope, CommandRequestDefinition definition, Request request)
+   at Axelius.Mediators.MediatorMiddleware.HandleRequest(RequestDefinition definition, HttpContext context)
+   at Axelius.Mediators.MediatorMiddleware.InvokeAsync(HttpContext context)" for "/feedbacks"
+2022-04-28 15:23:04.537 +05:30 [Error] HTTP "POST" "/feedbacks" responded 500 in 620.5943 ms
+2022-04-28 15:23:04.542 +05:30 [Information] Request finished HTTP/2 POST https://localhost:7051/feedbacks application/json 225 - 500 - application/json 626.8638ms
+2022-04-28 16:36:46.923 +05:30 [Debug] Starting with program startup
+2022-04-28 16:36:47.407 +05:30 [Information] Connected to Cache @ "localhost:9003"
+2022-04-28 16:36:47.932 +05:30 [Information] Connected to SqlDb @ "Server=localhost;Port=9001;Database=axelius;Username=administrator;Password=dev@2018;"
+2022-04-28 16:36:48.949 +05:30 [Information] Connected to DocumentDb @ "http://localhost:9002"
+2022-04-28 16:36:49.241 +05:30 [Debug] Registered DotNet Core-Services.
+2022-04-28 16:36:49.242 +05:30 [Debug] Registered Utilities.
+2022-04-28 16:36:49.336 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.IQuery`2".
+2022-04-28 16:36:49.336 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Queries.ITransformQueryResult`2".
+2022-04-28 16:36:49.337 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`2".
+2022-04-28 16:36:49.337 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IHandleCommand`1".
+2022-04-28 16:36:49.338 +05:30 [Debug] --- NewFeebackApi.Commands.StoreFeedbackHandler
+2022-04-28 16:36:49.338 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 16:36:49.339 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.ITransformRequest`1".
+2022-04-28 16:36:49.339 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Events.IHandleEvent`1".
+2022-04-28 16:36:49.340 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.Validations.IValidation`1".
+2022-04-28 16:36:49.340 +05:30 [Debug] Registering service for type: "Axelius.Mediators.Commands.IRunPostCommandExecution`2".
+2022-04-28 16:36:49.435 +05:30 [Debug]   - Identified Id as key field for request: NewFeebackApi.Commands.StoreFeedback
+2022-04-28 16:36:49.442 +05:30 [Debug]   - Mapped NewFeebackApi.Commands.StoreFeedback to ^feedbacks$
+2022-04-28 16:36:49.444 +05:30 [Debug] Registered Mediators.
+2022-04-28 16:36:49.550 +05:30 [Debug] App Running
+2022-04-28 16:36:49.552 +05:30 [Debug] Hosting starting
+2022-04-28 16:36:49.805 +05:30 [Debug] Connected to EventStore @ "nats://localhost:4222" : "b0903aba-1028-405d-860c-64fb5131cf55".
+2022-04-28 16:36:49.898 +05:30 [Debug] Using development certificate: "CN=localhost" (Thumbprint: "3C19203D38EC9FC78A283179257AE9B8B2896303")
+2022-04-28 16:36:49.916 +05:30 [Information] Now listening on: "https://localhost:7051"
+2022-04-28 16:36:49.917 +05:30 [Information] Now listening on: "http://localhost:5102"
+2022-04-28 16:36:49.917 +05:30 [Debug] Loaded hosting startup assembly "NewApi"
+2022-04-28 16:36:49.918 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.AspNetCore.Watch.BrowserRefresh"
+2022-04-28 16:36:49.918 +05:30 [Debug] Loaded hosting startup assembly "Microsoft.WebTools.BrowserLink.Net"
+2022-04-28 16:36:49.919 +05:30 [Information] Application started. Press Ctrl+C to shut down.
+2022-04-28 16:36:49.919 +05:30 [Information] Hosting environment: "Development"
+2022-04-28 16:36:49.920 +05:30 [Information] Content root path: "E:\test\NewApi\"
+2022-04-28 16:36:50.143 +05:30 [Debug] Attempting to setup sequence for core.feedbacks_sequence.
+2022-04-28 16:36:50.361 +05:30 [Debug] Connection id ""0HMH90SOT13J7"" received FIN.
+2022-04-28 16:36:50.361 +05:30 [Debug] Connection id ""0HMH90SOT13J8"" received FIN.
+2022-04-28 16:36:50.373 +05:30 [Debug] Connection id ""0HMH90SOT13J7"" accepted.
+2022-04-28 16:36:50.373 +05:30 [Debug] Connection id ""0HMH90SOT13J8"" accepted.
+2022-04-28 16:36:50.376 +05:30 [Debug] Connection id ""0HMH90SOT13J7"" started.
+2022-04-28 16:36:50.376 +05:30 [Debug] Connection id ""0HMH90SOT13J8"" started.
+2022-04-28 16:36:50.391 +05:30 [Debug] Hosting started
+2022-04-28 16:36:50.394 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 16:36:50.394 +05:30 [Debug] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2022-04-28 16:36:50.426 +05:30 [Debug] Connection id ""0HMH90SOT13J7"" stopped.
+2022-04-28 16:36:50.426 +05:30 [Debug] Connection id ""0HMH90SOT13J8"" stopped.
+2022-04-28 16:36:50.430 +05:30 [Debug] Connection id ""0HMH90SOT13J8"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 16:36:50.430 +05:30 [Debug] Connection id ""0HMH90SOT13J7"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+2022-04-28 16:36:50.542 +05:30 [Debug] Connection id ""0HMH90SOT13J9"" accepted.
+2022-04-28 16:36:50.548 +05:30 [Debug] Connection id ""0HMH90SOT13J9"" started.
+2022-04-28 16:36:50.617 +05:30 [Debug] Connection "0HMH90SOT13J9" established using the following protocol: Tls13
+2022-04-28 16:36:50.674 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/index.html - -
+2022-04-28 16:36:50.703 +05:30 [Debug] Wildcard detected, all requests with hosts will be allowed.
+2022-04-28 16:36:50.782 +05:30 [Debug] Response markup is scheduled to include browser refresh script injection.
+2022-04-28 16:36:50.837 +05:30 [Information] HTTP "GET" "/swagger/index.html" responded 200 in 129.1672 ms
+2022-04-28 16:36:50.840 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 16:36:50.843 +05:30 [Debug] Response markup was updated to include browser refresh script injection.
+2022-04-28 16:36:50.845 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/_framework/aspnetcore-browser-refresh.js - - - 200 11970 application/javascript;+charset=utf-8 4.7680ms
+2022-04-28 16:36:50.845 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/index.html - - - 200 - text/html;charset=utf-8 176.5240ms
+2022-04-28 16:36:50.940 +05:30 [Information] Request starting HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - -
+2022-04-28 16:36:50.985 +05:30 [Information] HTTP "GET" "/swagger/v1/swagger.json" responded 200 in 42.6801 ms
+2022-04-28 16:36:50.988 +05:30 [Information] Request finished HTTP/2 GET https://localhost:7051/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 48.4274ms
+2022-04-28 16:37:00.266 +05:30 [Information] Request starting HTTP/2 POST https://localhost:7051/feedbacks application/json 226
+2022-04-28 16:37:00.270 +05:30 [Debug] "POST" requests are not supported
+2022-04-28 16:37:00.290 +05:30 [Debug] Connection id ""0HMH90SOT13J9"", Request id ""0HMH90SOT13J9:00000007"": started reading request body.
+2022-04-28 16:37:00.291 +05:30 [Debug] Connection id ""0HMH90SOT13J9"", Request id ""0HMH90SOT13J9:00000007"": done reading request body.
+2022-04-28 16:37:00.381 +05:30 [Debug] Validating for request:string
+2022-04-28 16:37:00.387 +05:30 [Debug] Generating keys for request:string
+2022-04-28 16:37:00.391 +05:30 [Debug] Generating key for field:Int64
+2022-04-28 16:37:00.428 +05:30 [Debug] Validation was successful, request: string.
+2022-04-28 16:37:00.430 +05:30 [Debug] Attempting to execute command, request: string.
+2022-04-28 16:37:00.435 +05:30 [Debug] Axelius.Storages.SqlDb.SqlRepository registered successfully.
+2022-04-28 16:37:00.436 +05:30 [Debug] Axelius.Storages.DocumentDb.DocumentSessionFactory registered successfully.
+2022-04-28 16:37:00.437 +05:30 [Debug] Running command transformations for request:string
+2022-04-28 16:37:00.440 +05:30 [Debug] Executing service for request:string
+2022-04-28 16:37:00.611 +05:30 [Debug] Running post command for request:string
+2022-04-28 16:37:00.613 +05:30 [Debug] Command execution status: Executed, request: string.
+2022-04-28 16:37:00.615 +05:30 [Debug] Execution status: Executed, request: string.
+2022-04-28 16:37:00.674 +05:30 [Information] HTTP "POST" "/feedbacks" responded 200 in 406.0215 ms
+2022-04-28 16:37:00.678 +05:30 [Information] Request finished HTTP/2 POST https://localhost:7051/feedbacks application/json 226 - 200 - application/json 411.7999ms

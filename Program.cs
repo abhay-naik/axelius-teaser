@@ -1,0 +1,1 @@
+Axelius.Program.Main(args, new Axelius.StartupOptions { Mode = Axelius.Mode.Api });
