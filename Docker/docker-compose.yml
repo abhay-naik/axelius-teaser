@@ -1,0 +1,77 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:13.5
+    restart: always
+    container_name: Postgres-SqlDb
+    hostname: Postgres-SqlDb
+    ports:
+      - "9001:5432"
+    networks:
+      - ax-network
+    volumes:
+      - postgresql-volume:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=dev@2018
+      - POSTGRES_USER=administrator
+      - POSTGRES_DB=axelius
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 2
+  ravendb:
+    image: "ravendb/ravendb:5.3-ubuntu-latest"
+    restart: always
+    container_name: RavenDb-DocumentDb
+    hostname: RavenDb-DocumentDb
+    ports:
+      - "9002:8080"
+      - "48888:38888"
+    volumes:
+      - ravendb-volume:/opt/RavenDB/Server/RavenData
+    environment:
+      - RAVEN_Security_UnsecuredAccessAllowed=PrivateNetwork
+      - RAVEN_Setup_Mode=None
+      - RAVEN_License_Eula_Accepted=true
+      - RAVEN_LICENSE:'{"Id":"a705bd53-7547-424f-9a9a-b315267b57d4","Name":"Vedaantees","Keys":["Z3E4YR9QNTObTssL2RiRnRCDs","BPjlzXtAYGHrcmHd0DG1zkX7I","ZJ5q4XrcOOE2yOxuSTdWENXAQ","GXOLxW1kDryepGiIyZ2B0rbhG","8rfGzpQ2F7YVe5py1Lp+dDTWy","uajPMndriztWhpKebZxx3oE3A","/dx8SBOgzgFVyu+S5sx9lAAUE","yBQYHKEkDCgsMDQ4PEBESExQ1","FhcYQwZEA2IKUw=="]}'
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 2
+  redis:
+    image: "bitnami/redis:latest"
+    restart: always
+    container_name: Redis-Cache
+    hostname: Redis-Cache
+    ports:
+      - "9003:6379"
+    networks:
+      - ax-network
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 2
+  nats:
+    image: nats-streaming:latest
+    container_name: NATS-EventStore
+    hostname: NATS-EventStore
+    restart: always
+    ports:
+      - "4222:4222"
+      - "6222:6222"
+      - "8222:8222"
+    networks:
+      - ax-network
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 2
+volumes:
+  postgresql-volume:
+  ravendb-volume:
+  neo4j-volume:
+networks:
+  ax-network:
+    driver: bridge
