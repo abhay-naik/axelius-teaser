@@ -9,4 +9,4 @@ We rely on docker to setup all the services and backend used in application. We 
     c. NATs
     d. Redis
 
-2. Open src folder in command prompt and execute command dotnet run
+2. Open folder in command prompt and execute command **dotnet run**
